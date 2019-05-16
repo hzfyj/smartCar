@@ -1,0 +1,947 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: guan dell, HDU, LIC=8VR56-D9V17-NAADU-SVJM2-16VJE-FFQH2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\dell\Desktop\714准备省赛\海绵宝宝派大星省赛714.5\PRJ\MK66_HDU.uvprojx
+Project File Date:  07/13/2018
+
+<h2>Output:</h2>
+Build target 'MK66_HDU'
+compiling system_MK66.c...
+compiling sd_storage.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\Fuzzy\Fuzzy_control.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\SMARTCAR\src\sd_storage.c: 26 warnings, 0 errors
+compiling key.c...
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\SMARTCAR\src\key.c: 25 warnings, 0 errors
+compiling main.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\USER\main.c: 25 warnings, 0 errors
+compiling isr.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\USER\isr.c: 25 warnings, 0 errors
+compiling adc.c...
+compiling cmt.c...
+compiling common.c...
+compiling dac.c...
+compiling dma.c...
+compiling flash.c...
+compiling ftm.c...
+compiling gpio.c...
+compiling i2c.c...
+compiling lptmr.c...
+compiling misc.c...
+compiling systick.c...
+compiling pit.c...
+compiling rtc.c...
+compiling port.c...
+compiling sdhc.c...
+compiling spi.c...
+compiling uart.c...
+compiling wdog.c...
+compiling dmacnt.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\FWLIB\src\dmacnt.c: 25 warnings, 0 errors
+compiling dma_old.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\FWLIB\src\dma_old.c: 25 warnings, 0 errors
+compiling SEEKFREE_MT9V032.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\src\SEEKFREE_MT9V032.c(552): warning:  #1-D: last line of file ends without a newline
+  }
+..\SRC\HARDWARE\src\SEEKFREE_MT9V032.c: 26 warnings, 0 errors
+compiling sd_yaoxin.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\src\sd_yaoxin.c: 25 warnings, 0 errors
+compiling nrf2401.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\src\nrf2401.c: 25 warnings, 0 errors
+compiling oled.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\src\oled.c: 25 warnings, 0 errors
+assembling startup_MK66F18.s...
+compiling data.c...
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\data\data.c: 1 warning, 0 errors
+compiling menu.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\menu\menu.c(222): warning:  #223-D: function "strcpy" declared implicitly
+    strcpy(Menu_name[0].name, name0);
+..\SRC\HARDWARE\menu\menu.c(1684): warning:  #111-D: statement is unreachable
+        OLED_Write_String(6, 2,(uint8_t*) "finished");
+..\SRC\HARDWARE\menu\menu.c: 27 warnings, 0 errors
+compiling pidcontrol.c...
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\Fuzzy\Fuzzy_control.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\NewFuzzy\NewFuzzy1.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\NewFuzzy\NewFuzzy1.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\pidcontrol\pidcontrol.c(57): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        CESHI_bianmai = Speed_Fuzzy((int)(-MotorPID.iError), (int)(-(MotorPID.iError-MotorPID.LastError)))/10.0;//CESHI_bianmad=MyFuzzy1((int)(-MotorPID.iError), (int)(-(MotorPID.iError-MotorPID.LastError)),1);
+..\SRC\HARDWARE\pidcontrol\pidcontrol.c: 24 warnings, 0 errors
+compiling process.c...
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\Fuzzy\Fuzzy_control.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.c(43): warning:  #1295-D: Deprecated declaration kind - give arg types
+  void kind();
+..\SRC\HARDWARE\process\process.c(44): warning:  #1295-D: Deprecated declaration fabss - give arg types
+  int fabss();
+..\SRC\HARDWARE\process\process.c(67): warning:  #1294-D: Old-style function dajiaochange
+         int dajiaochange(dajiao)
+..\SRC\HARDWARE\process\process.c(67): warning:  #1079-D: standard requires that parameter "dajiao" be given a type by a subsequent declaration ("int" assumed)
+         int dajiaochange(dajiao)
+..\SRC\HARDWARE\process\process.c(106): warning:  #940-D: missing return statement at end of non-void function "dajiaochange"
+                         }
+..\SRC\HARDWARE\process\process.c(2427): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                          if (temp > 5 && a > 10 && j > 5 && P_Pixels[j + 5][R_black[j]] > 0 && P_Pixels[j - 5][R_black[j]] > 0 && c == 1 && khuan < 0.7 && khuan > 0)
+..\SRC\HARDWARE\process\process.c(3818): warning:  #186-D: pointless comparison of unsigned integer with zero
+                          for (i = Cross_Lean_R_out_Row; i >= 0; i--)
+..\SRC\HARDWARE\process\process.c(3980): warning:  #186-D: pointless comparison of unsigned integer with zero
+                          for (i = Cross_NR_L_Memory_out_Row; i >= 0; i--)
+..\SRC\HARDWARE\process\process.c(4077): warning:  #186-D: pointless comparison of unsigned integer with zero
+                          for (i = Cross_NR_R_Memory_out_Row; i >= 0; i--)
+..\SRC\HARDWARE\process\process.c(4168): warning:  #186-D: pointless comparison of unsigned integer with zero
+                              ; i >= 0; i--)
+..\SRC\HARDWARE\process\process.c(4231): warning:  #186-D: pointless comparison of unsigned integer with zero
+                              ; i >= 0; i--)
+..\SRC\HARDWARE\process\process.c(4314): warning:  #186-D: pointless comparison of unsigned integer with zero
+                         ; i >= 0; i--)
+..\SRC\HARDWARE\process\process.c(5651): warning:  #186-D: pointless comparison of unsigned integer with zero
+              if (LCenter[0] > 199 || LCenter[0] < 0)
+..\SRC\HARDWARE\process\process.c: 39 warnings, 0 errors
+compiling sonyccd.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\sonyccd\sonyccd.c(84): warning:  #177-D: variable "i" was declared but never referenced
+        uint32_t i = 0;
+..\SRC\HARDWARE\sonyccd\sonyccd.c(345): warning:  #1-D: last line of file ends without a newline
+  }
+..\SRC\HARDWARE\sonyccd\sonyccd.c: 27 warnings, 0 errors
+compiling Fuzzy_control.c...
+..\SRC\HARDWARE\Fuzzy\Fuzzy_control.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\Fuzzy\Fuzzy_control.c(506): warning:  #1-D: last line of file ends without a newline
+                                
+..\SRC\HARDWARE\Fuzzy\Fuzzy_control.c: 2 warnings, 0 errors
+compiling IMU_IIC.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\IMU_IIC\IMU_IIC.c: 25 warnings, 0 errors
+compiling L3G4200D.c...
+..\SRC\FWLIB\inc\all_init.h(5): warning:  #1295-D: Deprecated declaration Car_Init_WhenMenu - give arg types
+  void Car_Init_WhenMenu();
+..\SRC\FWLIB\inc\all_init.h(6): warning:  #1295-D: Deprecated declaration Car_Set - give arg types
+  void Car_Set();//根据小车的编号 决定小车的引脚不同
+..\SRC\FWLIB\inc\all_init.h(7): warning:  #1295-D: Deprecated declaration Car_Init_AfterSet - give arg types
+  void Car_Init_AfterSet();//目录之后初始化 电机 ad电感
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(83): warning:  #1295-D: Deprecated declaration Pixels_get - give arg types
+  void Pixels_get();//鑾峰彇200*70鍥惧儚 瀛樺偍鍦╥mage涓?       ^
+..\SRC\HARDWARE\inc\SEEKFREE_MT9V032.h(84): warning:  #1295-D: Deprecated declaration Threshold_adjust - give arg types
+  void Threshold_adjust();
+..\SRC\HARDWARE\data\data.h(72): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\process\process.h(12): warning:  #1295-D: Deprecated declaration ImageProcess - give arg types
+  void ImageProcess();
+..\SRC\HARDWARE\process\process.h(13): warning:  #1295-D: Deprecated declaration steercontrol - give arg types
+  void steercontrol();
+..\SRC\HARDWARE\process\process.h(14): warning:  #1295-D: Deprecated declaration Image_Init - give arg types
+  void Image_Init();
+..\SRC\HARDWARE\process\process.h(15): warning:  #1295-D: Deprecated declaration FieldProcess - give arg types
+  void FieldProcess();
+..\SRC\HARDWARE\process\process.h(16): warning:  #1295-D: Deprecated declaration SignalProcess - give arg types
+  void SignalProcess();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(5): warning:  #1295-D: Deprecated declaration straightpid - give arg types
+  int straightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(6): warning:  #1295-D: Deprecated declaration turnpidzuo - give arg types
+  int turnpidzuo();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(7): warning:  #1295-D: Deprecated declaration turnpidyou - give arg types
+  int turnpidyou();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(8): warning:  #1295-D: Deprecated declaration dianjicha - give arg types
+  int dianjicha();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(9): warning:  #1295-D: Deprecated declaration huandaopid - give arg types
+  int huandaopid();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(10): warning:  #1295-D: Deprecated declaration longstraightpid - give arg types
+  int longstraightpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(14): warning:  #1295-D: Deprecated declaration IncPIDInit - give arg types
+  void IncPIDInit();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(15): warning:  #1295-D: Deprecated declaration motorOut - give arg types
+  void motorOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(16): warning:  #1295-D: Deprecated declaration blockpid - give arg types
+  int blockpid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(17): warning:  #1295-D: Deprecated declaration motorPIDOut - give arg types
+  void motorPIDOut();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(19): warning:  #1295-D: Deprecated declaration bigspid - give arg types
+  int bigspid();
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(20): warning:  #1295-D: Deprecated declaration lianwanyou - give arg types
+  int lianwanyou(); 
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(21): warning:  #1295-D: Deprecated declaration lianwanzuo - give arg types
+  int lianwanzuo();  
+..\SRC\HARDWARE\pidcontrol\pidcontrol.h(25): warning:  #1295-D: Deprecated declaration smallspid - give arg types
+  int smallspid();
+..\SRC\HARDWARE\L3G4200D\L3G4200D.c: 25 warnings, 0 errors
+compiling NewFuzzy1.c...
+..\SRC\HARDWARE\NewFuzzy\NewFuzzy1.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\NewFuzzy\NewFuzzy1.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SRC\HARDWARE\NewFuzzy\NewFuzzy1.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=90752 RO-data=2520 RW-data=3280 ZI-data=62888  
+"..\OBJ\MK66_HDU.axf" - 0 Error(s), 424 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\dell\Desktop\714准备省赛\海绵宝宝派大星省赛714.5\PRJ\RTE
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

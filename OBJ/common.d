@@ -1,0 +1,16 @@
+..\obj\common.o: ..\SRC\FWLIB\src\common.c
+..\obj\common.o: ..\SRC\FWLIB\inc\common.h
+..\obj\common.o: ..\SRC\STARTUP\DeviceSupport\MK66F18.h
+..\obj\common.o: ..\SRC\STARTUP\CoreSupport\core_cm4.h
+..\obj\common.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\common.o: ..\SRC\STARTUP\CoreSupport\core_cmInstr.h
+..\obj\common.o: ..\SRC\STARTUP\CoreSupport\core_cmFunc.h
+..\obj\common.o: ..\SRC\STARTUP\CoreSupport\core_cm4_simd.h
+..\obj\common.o: ..\SRC\STARTUP\DeviceSupport\system_MK66.h
+..\obj\common.o: ..\SRC\FWLIB\inc\uart.h
+..\obj\common.o: ..\SRC\FWLIB\inc\misc.h
+..\obj\common.o: ..\SRC\FWLIB\inc\common.h
+..\obj\common.o: ..\SRC\FWLIB\inc\port.h
+..\obj\common.o: ..\SRC\FWLIB\inc\gpio.h
+..\obj\common.o: ..\SRC\FWLIB\inc\port_cfg.h
+..\obj\common.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
